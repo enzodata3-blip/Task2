@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 *.so
 .Python
 build/
@@ -40,7 +41,6 @@ venv.bak/
 *.swp
 *.swo
 *~
-.DS_Store
 
 # Data files (if large)
 # Uncomment if you have large datasets you don't want to push
@@ -58,8 +58,8 @@ results/models/*.h5
 *.tmp
 .cache/
 
-# Claude Code (optional - keep or remove based on preference)
-# .claude/
+# Claude Code
+.claude/
 
 # OS
 .DS_Store
