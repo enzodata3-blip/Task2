@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (if large)
+# Uncomment if you have large datasets you don't want to push
+# data/*.csv
+# data/*.json
+# data/*.parquet
+
+# Model files (if large)
+results/models/*.joblib
+results/models/*.pkl
+results/models/*.h5
+
+# Temporary files
+*.log
+*.tmp
+.cache/
+
+# Claude Code (optional - keep or remove based on preference)
+# .claude/
+
+# OS
+.DS_Store
+Thumbs.db
